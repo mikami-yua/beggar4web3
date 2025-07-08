@@ -1,1 +1,5 @@
 # beggar4web3
+
+
+我希望工程做这些修改，AI 的MCP分析都在analysis_note文件夹中实现。所有的pdf待分析文件都在source_info文件夹中，output_info中放分析的结果。像是api的配置这些信息都放在config.py中。
+假设我们已经获取了pdf（我们的信息源可能很多）。当前先只有pdf，要预留扩展的接口。我创建了一个文件夹analysis_note。我们对文件的分析都放在这里。我当前能想到这个文件夹中的主要工作有这些：1.组织prompt 2.利用MCP技术将文章和我们的分析要求发给AI（暂定gemini）2.将AI返回的数据组织起来，作为分析简报保存起来
