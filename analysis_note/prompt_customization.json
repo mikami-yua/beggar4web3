@@ -1,0 +1,37 @@
+{
+  "analysis_targets": {
+    "target_companies": [
+      "Tesla",
+      "BYD",
+      "NIO",
+      "Volkswagen",
+      "Ford"
+    ],
+    "target_price_keywords": [
+      "target price",
+      "price target",
+      "rating",
+      "buy",
+      "sell",
+      "hold",
+      "outperform",
+      "underperform",
+      "neutral",
+      "目标价",
+      "评级",
+      "买入",
+      "卖出",
+      "增持",
+      "减持"
+    ]
+  },
+  "custom_output_structure": {
+    "field_name": "company_specific_analysis",
+    "description": "针对在'target_companies'中列出的公司，提取其目标价格、评级或分析师的关键评论。",
+    "format": {
+        "company_name": "被提及的公司名称",
+        "target_price_info": "提取到的目标价格相关信息，如 '上调目标价至$200' 或 '维持跑赢大市评级'。",
+        "analyst_comment": "分析师对该公司的核心评论摘要。"
+    }
+  }
+}
