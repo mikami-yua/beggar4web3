@@ -32,7 +32,7 @@ def main():
             orchestrator = Orchestrator()
 
             # 2. 运行完整的工作流
-            orchestrator.run_pipeline()
+            orchestrator.run_full_pipeline()
 
         except Exception as e:
             # 捕获任何在运行时可能发生的致命错误
