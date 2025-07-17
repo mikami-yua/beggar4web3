@@ -1,7 +1,7 @@
 # test_newsapi_acquirer.py
 
 import config
-from source_acquirer2.newsapi_client import fetch_full_content_news
+from ut.newsapi_client import fetch_full_content_news
 
 
 def run_newsapi_test():

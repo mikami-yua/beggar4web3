@@ -1,0 +1,13 @@
+# Web Scraping & Automation
+requests
+beautifulsoup4
+selenium
+
+# PDF Processing
+pdfkit
+PyMuPDF
+
+# API Clients
+google-generativeai
+newsapi-python
+baidupcs_py

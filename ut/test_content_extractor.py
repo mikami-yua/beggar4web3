@@ -2,7 +2,7 @@
 
 import os
 import config
-from source_acquirer2.content_extractor import extract_article_text_from_url
+from ut.content_extractor import extract_article_text_from_url
 
 # --- 我们测试的URL列表保持不变 ---
 URLS_TO_TEST = [

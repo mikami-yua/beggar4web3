@@ -1,7 +1,7 @@
 # batch_test_url_to_pdf.py
 
 import os
-from source_acquirer2.html_to_pdf import convert_url_to_pdf
+from ut.html_to_pdf import convert_url_to_pdf
 
 # --- 我们将您提供的两个链接放入一个列表中 ---
 TEST_URLS = [
